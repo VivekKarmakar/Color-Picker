@@ -1,3 +1,7 @@
+body
+{
+  background-color: plum;
+}
 .App {
   text-align: center;
 }
@@ -11,6 +15,12 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.PickelApp
+{
+  text-align: center;
+  color: black;
 }
 
 .App-header {
@@ -35,4 +45,38 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.color-picker-container {
+  border: 2px solid black;
+  padding: 20px;
+  text-align: center;
+  max-width: 500px;
+  height: 300px;
+  border-radius: 15px;
+  margin: 0 auto;
+}
+
+.color-button {
+  margin-bottom: 10px;
+  width: 90px;
+  height:40px;
+  background-color: greenyellow;
+  color: white;
+}
+
+.color-square {
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 10px;
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.color-square:hover {
+  opacity: 0.8;
 }
